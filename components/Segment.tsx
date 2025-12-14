@@ -144,6 +144,8 @@ interface SegmentProps {
           placesDetails?: {
             lower?: { quantity: number };
             upper?: { quantity: number };
+            lowerSide?: { quantity: number };
+            upperSide?: { quantity: number };
           };
           facilities: string[];
         };
@@ -238,8 +240,17 @@ export default function Segment({ segment }: SegmentProps) {
           <div className={styles.tariffList}>
             {Object.entries(segment.tariffs.classes).map(
               ([tariffType, tariff]) => {
-                const lowerPlaces = tariff.placesDetails?.lower?.quantity || 0;
-                const upperPlaces = tariff.placesDetails?.upper?.quantity || 0;
+                const isPlatzkarte = tariffType.toLowerCase() === 'platzkarte';
+                const lowerPlaces =
+                  (tariff.placesDetails?.lower?.quantity || 0) +
+                  (isPlatzkarte
+                    ? tariff.placesDetails?.lowerSide?.quantity || 0
+                    : 0);
+                const upperPlaces =
+                  (tariff.placesDetails?.upper?.quantity || 0) +
+                  (isPlatzkarte
+                    ? tariff.placesDetails?.upperSide?.quantity || 0
+                    : 0);
                 const totalSeats = tariff.seats || 0;
                 const isSitting = lowerPlaces === 0 && upperPlaces === 0;
 

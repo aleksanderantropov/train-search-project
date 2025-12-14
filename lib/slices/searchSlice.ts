@@ -60,6 +60,8 @@ interface Price {
 interface PlacesDetails {
   lower?: { quantity: number };
   upper?: { quantity: number };
+  lowerSide?: { quantity: number };
+  upperSide?: { quantity: number };
 }
 
 interface TariffClass {
