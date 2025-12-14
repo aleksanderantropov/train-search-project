@@ -1,0 +1,4263 @@
+{
+  "status": "DONE",
+  "variants": [
+    {
+      "id": "2006004_9602494_1765920300",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765920300",
+          "departure": "2025-12-16T21:25:00Z",
+          "arrival": "2025-12-17T06:26:00Z",
+          "duration": 32460,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "Тверской Экспресс" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "022А",
+            "displayNumber": "022А"
+          },
+          "features": {
+            "eTicket": { "type": "eTicket" },
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 328,
+              "title": "«Ночной экспресс»",
+              "isDeluxe": false,
+              "isHighSpeed": false,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": {
+            "classes": {
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 4561.81, "currency": "RUB" },
+                "seats": 77,
+                "hasNonRefundableTariff": true,
+                "placesDetails": {
+                  "lower": { "quantity": 2 },
+                  "upper": { "quantity": 75 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "PETS",
+                  "REST",
+                  "S220",
+                  "SAN",
+                  "SLPR",
+                  "WC",
+                  "WIFI",
+                  "EAT",
+                  "GENDER_CABIN"
+                ]
+              },
+              "suite": {
+                "type": "suite",
+                "price": { "value": 15884.15, "currency": "RUB" },
+                "seats": 5,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 5 },
+                  "upper": { "quantity": 0 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "EAT",
+                  "PAP",
+                  "REST",
+                  "S220",
+                  "SAN",
+                  "SLPR",
+                  "WC",
+                  "WIFI"
+                ]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["EAT", "REST"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "2006004_9602499_1765921560",
+      "forward": [
+        {
+          "id": "2006004_9602499_1765921560",
+          "departure": "2025-12-16T21:46:00Z",
+          "arrival": "2025-12-17T06:13:00Z",
+          "duration": 30420,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602499",
+            "title": "Ладожский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Москва — Мурманск",
+            "number": "016А",
+            "displayNumber": "016А"
+          },
+          "features": {
+            "eTicket": { "type": "eTicket" },
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 193,
+              "title": "фирменный «Арктика»",
+              "isDeluxe": true,
+              "isHighSpeed": false,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": {
+            "classes": {
+              "platzkarte": {
+                "type": "platzkarte",
+                "price": { "value": 3666, "currency": "RUB" },
+                "seats": 148,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 4 },
+                  "upper": { "quantity": 75 },
+                  "lowerSide": { "quantity": 28 },
+                  "upperSide": { "quantity": 41 }
+                },
+                "facilities": ["COND", "PETS", "REST", "WC"]
+              },
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 8410.46, "currency": "RUB" },
+                "seats": 67,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 14 },
+                  "upper": { "quantity": 53 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "EAT",
+                  "PAP",
+                  "REST",
+                  "SAN",
+                  "WC",
+                  "GENDER_CABIN"
+                ]
+              },
+              "suite": {
+                "type": "suite",
+                "price": { "value": 19218.07, "currency": "RUB" },
+                "seats": 6,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 3 },
+                  "upper": { "quantity": 3 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "EAT",
+                  "GENDER_CABIN",
+                  "PAP",
+                  "REST",
+                  "SAN",
+                  "WC"
+                ]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["EAT", "REST"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "9879173_9602494_1765921680",
+      "forward": [
+        {
+          "id": "9879173_9602494_1765921680",
+          "departure": "2025-12-16T21:48:00Z",
+          "arrival": "2025-12-17T06:57:00Z",
+          "duration": 32940,
+          "stationFrom": {
+            "id": "9879173",
+            "title": "Восточный вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Нижний Новгород — Санкт-Петербург",
+            "number": "059Г",
+            "displayNumber": "060Г"
+          },
+          "features": {
+            "eTicket": { "type": "eTicket" },
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 146,
+              "title": "фирменный «Волга»",
+              "isDeluxe": true,
+              "isHighSpeed": false,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": {
+            "classes": {
+              "platzkarte": {
+                "type": "platzkarte",
+                "price": { "value": 2444, "currency": "RUB" },
+                "seats": 149,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 5 },
+                  "upper": { "quantity": 69 },
+                  "lowerSide": { "quantity": 33 },
+                  "upperSide": { "quantity": 42 }
+                },
+                "facilities": ["COND", "REST", "WC", "PETS"]
+              },
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 6772.12, "currency": "RUB" },
+                "seats": 57,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 19 },
+                  "upper": { "quantity": 38 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "EAT",
+                  "PAP",
+                  "REST",
+                  "SAN",
+                  "WC",
+                  "GENDER_CABIN"
+                ]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["EAT", "REST"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "2000007_9602494_1765922400",
+      "forward": [
+        {
+          "id": "2000007_9602494_1765922400",
+          "departure": "2025-12-16T22:00:00Z",
+          "arrival": "2025-12-17T07:41:00Z",
+          "duration": 34860,
+          "stationFrom": {
+            "id": "2000007",
+            "title": "Киевский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "057М",
+            "displayNumber": "057М"
+          },
+          "features": { "eTicket": { "type": "eTicket" } },
+          "tariffs": {
+            "classes": {
+              "platzkarte": {
+                "type": "platzkarte",
+                "price": { "value": 2444, "currency": "RUB" },
+                "seats": 274,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 55 },
+                  "upper": { "quantity": 115 },
+                  "lowerSide": { "quantity": 51 },
+                  "upperSide": { "quantity": 53 }
+                },
+                "facilities": ["COND", "WC", "PETS"]
+              },
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 4973.83, "currency": "RUB" },
+                "seats": 28,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 11 },
+                  "upper": { "quantity": 17 }
+                },
+                "facilities": ["BED", "COND", "WC", "GENDER_CABIN"]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": []
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "9879173_9602494_1765926300",
+      "forward": [
+        {
+          "id": "9879173_9602494_1765926300",
+          "departure": "2025-12-16T23:05:00Z",
+          "arrival": "2025-12-17T08:00:00Z",
+          "duration": 32100,
+          "stationFrom": {
+            "id": "9879173",
+            "title": "Восточный вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Кисловодск — Санкт-Петербург",
+            "number": "049С",
+            "displayNumber": "050С"
+          },
+          "features": { "eTicket": { "type": "eTicket" } },
+          "tariffs": {
+            "classes": {
+              "platzkarte": {
+                "type": "platzkarte",
+                "price": { "value": 2444, "currency": "RUB" },
+                "seats": 245,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 20 },
+                  "upper": { "quantity": 114 },
+                  "lowerSide": { "quantity": 50 },
+                  "upperSide": { "quantity": 61 }
+                },
+                "facilities": ["COND", "WC", "PETS"]
+              },
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 4200.64, "currency": "RUB" },
+                "seats": 71,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 14 },
+                  "upper": { "quantity": 57 }
+                },
+                "facilities": ["BED", "COND", "WC", "GENDER_CABIN"]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": []
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "9879173_9602494_1765926780",
+      "forward": [
+        {
+          "id": "9879173_9602494_1765926780",
+          "departure": "2025-12-16T23:13:00Z",
+          "arrival": "2025-12-17T09:31:00Z",
+          "duration": 37080,
+          "stationFrom": {
+            "id": "9879173",
+            "title": "Восточный вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Новороссийск — Санкт-Петербург",
+            "number": "122С",
+            "displayNumber": "122С"
+          },
+          "features": { "eTicket": { "type": "eTicket" } },
+          "tariffs": {
+            "classes": {
+              "platzkarte": {
+                "type": "platzkarte",
+                "price": { "value": 2444, "currency": "RUB" },
+                "seats": 92,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 17 },
+                  "upper": { "quantity": 41 },
+                  "lowerSide": { "quantity": 11 },
+                  "upperSide": { "quantity": 23 }
+                },
+                "facilities": ["COND", "PETS", "REST", "WC"]
+              },
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 4320.91, "currency": "RUB" },
+                "seats": 67,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 20 },
+                  "upper": { "quantity": 47 }
+                },
+                "facilities": ["BED", "COND", "GENDER_CABIN", "REST", "WC"]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["REST"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "9879173_9602494_1765929300",
+      "forward": [
+        {
+          "id": "9879173_9602494_1765929300",
+          "departure": "2025-12-16T23:55:00Z",
+          "arrival": "2025-12-17T09:10:00Z",
+          "duration": 33300,
+          "stationFrom": {
+            "id": "9879173",
+            "title": "Восточный вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Волгоград — Санкт-Петербург",
+            "number": "089Ж",
+            "displayNumber": "090Ж"
+          },
+          "features": { "eTicket": { "type": "eTicket" } },
+          "tariffs": {
+            "classes": {
+              "platzkarte": {
+                "type": "platzkarte",
+                "price": { "value": 2444, "currency": "RUB" },
+                "seats": 61,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 6 },
+                  "upper": { "quantity": 31 },
+                  "lowerSide": { "quantity": 2 },
+                  "upperSide": { "quantity": 22 }
+                },
+                "facilities": ["COND", "PETS", "WC"]
+              },
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 4177.39, "currency": "RUB" },
+                "seats": 20,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 3 },
+                  "upper": { "quantity": 17 }
+                },
+                "facilities": ["BED", "COND", "GENDER_CABIN", "WC"]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": []
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "9879173_9602494_1765930380",
+      "forward": [
+        {
+          "id": "9879173_9602494_1765930380",
+          "departure": "2025-12-17T00:13:00Z",
+          "arrival": "2025-12-17T08:40:00Z",
+          "duration": 30420,
+          "stationFrom": {
+            "id": "9879173",
+            "title": "Восточный вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Белгород — Санкт-Петербург",
+            "number": "082В",
+            "displayNumber": "082В"
+          },
+          "features": { "eTicket": { "type": "eTicket" } },
+          "tariffs": {
+            "classes": {
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 2992.92, "currency": "RUB" },
+                "seats": 224,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 72 },
+                  "upper": { "quantity": 152 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "REST",
+                  "WC",
+                  "PAP",
+                  "EAT",
+                  "GENDER_CABIN",
+                  "SAN"
+                ]
+              },
+              "suite": {
+                "type": "suite",
+                "price": { "value": 13587.08, "currency": "RUB" },
+                "seats": 9,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 9 },
+                  "upper": { "quantity": 0 }
+                },
+                "facilities": ["BED", "COND", "EAT", "PAP", "REST", "SAN", "WC"]
+              },
+              "sitting": {
+                "type": "sitting",
+                "price": { "value": 1626.11, "currency": "RUB" },
+                "seats": 14,
+                "hasNonRefundableTariff": false,
+                "facilities": ["COND", "REST", "WC"]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["EAT", "REST", "BED"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "9879173_9602494_1765932900",
+      "forward": [
+        {
+          "id": "9879173_9602494_1765932900",
+          "departure": "2025-12-17T00:55:00Z",
+          "arrival": "2025-12-17T10:18:00Z",
+          "duration": 33780,
+          "stationFrom": {
+            "id": "9879173",
+            "title": "Восточный вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Адлер — Санкт-Петербург",
+            "number": "100С",
+            "displayNumber": "100С"
+          },
+          "features": { "eTicket": { "type": "eTicket" } },
+          "tariffs": {
+            "classes": {
+              "platzkarte": {
+                "type": "platzkarte",
+                "price": { "value": 2444, "currency": "RUB" },
+                "seats": 257,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 38 },
+                  "upper": { "quantity": 113 },
+                  "lowerSide": { "quantity": 50 },
+                  "upperSide": { "quantity": 56 }
+                },
+                "facilities": ["COND", "WC", "PETS"]
+              },
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 3562.96, "currency": "RUB" },
+                "seats": 194,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 88 },
+                  "upper": { "quantity": 106 }
+                },
+                "facilities": ["BED", "COND", "WC", "GENDER_CABIN"]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": []
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "2006004_9602494_1765939500",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765939500",
+          "departure": "2025-12-17T02:45:00Z",
+          "arrival": "2025-12-17T06:32:00Z",
+          "duration": 13620,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ДОСС" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "754А",
+            "displayNumber": "754А"
+          },
+          "features": {
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 258,
+              "title": "«Сапсан»",
+              "isDeluxe": false,
+              "isHighSpeed": true,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": { "classes": {}, "brokenClassesCode": "SOLD_OUT" },
+          "facilities": []
+        }
+      ],
+      "backward": []
+    },
+    {
+      "id": "2006004_9602494_1765940400",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765940400",
+          "departure": "2025-12-17T03:00:00Z",
+          "arrival": "2025-12-17T08:45:00Z",
+          "duration": 20700,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "742У",
+            "displayNumber": "742У"
+          },
+          "features": {
+            "eTicket": { "type": "eTicket" },
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 360,
+              "title": "«Аврора/двухэтажный состав»",
+              "isDeluxe": false,
+              "isHighSpeed": false,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": {
+            "classes": {
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 6308.58, "currency": "RUB" },
+                "seats": 41,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 0 },
+                  "upper": { "quantity": 41 }
+                },
+                "facilities": ["BED", "COND", "EAT", "PAP", "REST", "SAN", "WC"]
+              },
+              "suite": {
+                "type": "suite",
+                "price": { "value": 15869.87, "currency": "RUB" },
+                "seats": 2,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 2 },
+                  "upper": { "quantity": 0 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "EAT",
+                  "GENDER_CABIN",
+                  "PAP",
+                  "REST",
+                  "SAN",
+                  "WC"
+                ]
+              },
+              "sitting": {
+                "type": "sitting",
+                "price": { "value": 2470.93, "currency": "RUB" },
+                "seats": 331,
+                "hasNonRefundableTariff": false,
+                "facilities": [
+                  "COND",
+                  "PAP",
+                  "REST",
+                  "S220",
+                  "SAN",
+                  "WC",
+                  "PETS"
+                ]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["EAT", "REST"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "2006004_9602494_1765943400",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765943400",
+          "departure": "2025-12-17T03:50:00Z",
+          "arrival": "2025-12-17T07:49:00Z",
+          "duration": 14340,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ДОСС" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "756А",
+            "displayNumber": "756А"
+          },
+          "features": {
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 258,
+              "title": "«Сапсан»",
+              "isDeluxe": false,
+              "isHighSpeed": true,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": { "classes": {}, "brokenClassesCode": "SOLD_OUT" },
+          "facilities": []
+        }
+      ],
+      "backward": []
+    },
+    {
+      "id": "2006004_9602494_1765944000",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765944000",
+          "departure": "2025-12-17T04:00:00Z",
+          "arrival": "2025-12-17T08:10:00Z",
+          "duration": 15000,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ДОСС" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "758А",
+            "displayNumber": "758А"
+          },
+          "features": {
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 258,
+              "title": "«Сапсан»",
+              "isDeluxe": false,
+              "isHighSpeed": true,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": { "classes": {}, "brokenClassesCode": "SOLD_OUT" },
+          "facilities": []
+        }
+      ],
+      "backward": []
+    },
+    {
+      "id": "2006004_9602494_1765953000",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765953000",
+          "departure": "2025-12-17T06:30:00Z",
+          "arrival": "2025-12-17T10:28:00Z",
+          "duration": 14280,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ДОСС" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "760А",
+            "displayNumber": "760А"
+          },
+          "features": {
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 258,
+              "title": "«Сапсан»",
+              "isDeluxe": false,
+              "isHighSpeed": true,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": { "classes": {}, "brokenClassesCode": "SOLD_OUT" },
+          "facilities": []
+        }
+      ],
+      "backward": []
+    },
+    {
+      "id": "2006004_9602494_1765953600",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765953600",
+          "departure": "2025-12-17T06:40:00Z",
+          "arrival": "2025-12-17T10:50:00Z",
+          "duration": 15000,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ДОСС" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "762А",
+            "displayNumber": "762А"
+          },
+          "features": {
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 258,
+              "title": "«Сапсан»",
+              "isDeluxe": false,
+              "isHighSpeed": true,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": { "classes": {}, "brokenClassesCode": "SOLD_OUT" },
+          "facilities": []
+        }
+      ],
+      "backward": []
+    },
+    {
+      "id": "9879173_9602494_1765961760",
+      "forward": [
+        {
+          "id": "9879173_9602494_1765961760",
+          "departure": "2025-12-17T08:56:00Z",
+          "arrival": "2025-12-17T19:05:00Z",
+          "duration": 36540,
+          "stationFrom": {
+            "id": "9879173",
+            "title": "Восточный вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Белгород — Санкт-Петербург",
+            "number": "104А",
+            "displayNumber": "104А"
+          },
+          "features": { "eTicket": { "type": "eTicket" } },
+          "tariffs": {
+            "classes": {
+              "platzkarte": {
+                "type": "platzkarte",
+                "price": { "value": 2444, "currency": "RUB" },
+                "seats": 229,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 67 },
+                  "upper": { "quantity": 83 },
+                  "lowerSide": { "quantity": 39 },
+                  "upperSide": { "quantity": 40 }
+                },
+                "facilities": ["COND", "PETS", "WC"]
+              },
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 3708.04, "currency": "RUB" },
+                "seats": 118,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 57 },
+                  "upper": { "quantity": 61 }
+                },
+                "facilities": ["BED", "COND", "WC", "GENDER_CABIN"]
+              },
+              "sitting": {
+                "type": "sitting",
+                "price": { "value": 1626.11, "currency": "RUB" },
+                "seats": 45,
+                "hasNonRefundableTariff": false,
+                "facilities": ["COND", "WC"]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": []
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "2000001_9602494_1765962120",
+      "forward": [
+        {
+          "id": "2000001_9602494_1765962120",
+          "departure": "2025-12-17T09:02:00Z",
+          "arrival": "2025-12-17T18:55:00Z",
+          "duration": 35580,
+          "stationFrom": {
+            "id": "2000001",
+            "title": "Курский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "Гранд" },
+          "train": {
+            "title": "Симферополь — Санкт-Петербург",
+            "number": "078С",
+            "displayNumber": "078С"
+          },
+          "features": { "eTicket": { "type": "eTicket" } },
+          "tariffs": {
+            "classes": {
+              "platzkarte": {
+                "type": "platzkarte",
+                "price": { "value": 2172.37, "currency": "RUB" },
+                "seats": 317,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 83 },
+                  "upper": { "quantity": 118 },
+                  "lowerSide": { "quantity": 57 },
+                  "upperSide": { "quantity": 59 }
+                },
+                "facilities": []
+              },
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 4930.75, "currency": "RUB" },
+                "seats": 94,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 46 },
+                  "upper": { "quantity": 48 }
+                },
+                "facilities": ["BED"]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": []
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "2006004_9602494_1765967400",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765967400",
+          "departure": "2025-12-17T10:30:00Z",
+          "arrival": "2025-12-17T14:30:00Z",
+          "duration": 14400,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ДОСС" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "768А",
+            "displayNumber": "768А"
+          },
+          "features": {
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 258,
+              "title": "«Сапсан»",
+              "isDeluxe": false,
+              "isHighSpeed": true,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": { "classes": {}, "brokenClassesCode": "SOLD_OUT" },
+          "facilities": []
+        }
+      ],
+      "backward": []
+    },
+    {
+      "id": "2006004_9602494_1765968000",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765968000",
+          "departure": "2025-12-17T10:40:00Z",
+          "arrival": "2025-12-17T14:40:00Z",
+          "duration": 14400,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ДОСС" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "770А",
+            "displayNumber": "770А"
+          },
+          "features": {
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 258,
+              "title": "«Сапсан»",
+              "isDeluxe": false,
+              "isHighSpeed": true,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": { "classes": {}, "brokenClassesCode": "SOLD_OUT" },
+          "facilities": []
+        }
+      ],
+      "backward": []
+    },
+    {
+      "id": "2006004_9602494_1765968600",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765968600",
+          "departure": "2025-12-17T10:50:00Z",
+          "arrival": "2025-12-17T16:15:00Z",
+          "duration": 19500,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "744У",
+            "displayNumber": "744У"
+          },
+          "features": {
+            "eTicket": { "type": "eTicket" },
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 360,
+              "title": "«Аврора/двухэтажный состав»",
+              "isDeluxe": false,
+              "isHighSpeed": false,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": {
+            "classes": {
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 5823.12, "currency": "RUB" },
+                "seats": 20,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 0 },
+                  "upper": { "quantity": 20 }
+                },
+                "facilities": ["BED", "COND", "PAP", "REST", "SAN", "WC", "EAT"]
+              },
+              "sitting": {
+                "type": "sitting",
+                "price": { "value": 3408.09, "currency": "RUB" },
+                "seats": 202,
+                "hasNonRefundableTariff": false,
+                "facilities": [
+                  "COND",
+                  "PAP",
+                  "REST",
+                  "S220",
+                  "SAN",
+                  "WC",
+                  "PETS"
+                ]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["BED", "REST", "EAT"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "9879173_9602494_1765972440",
+      "forward": [
+        {
+          "id": "9879173_9602494_1765972440",
+          "departure": "2025-12-17T11:54:00Z",
+          "arrival": "2025-12-17T18:10:00Z",
+          "duration": 22560,
+          "stationFrom": {
+            "id": "9879173",
+            "title": "Восточный вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Самара — Санкт-Петербург",
+            "number": "063Й",
+            "displayNumber": "064Й"
+          },
+          "features": {
+            "eTicket": { "type": "eTicket" },
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 264,
+              "title": "«Двухэтажный состав»",
+              "isDeluxe": false,
+              "isHighSpeed": false,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": {
+            "classes": {
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 4407.18, "currency": "RUB" },
+                "seats": 320,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 150 },
+                  "upper": { "quantity": 170 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "PAP",
+                  "REST",
+                  "SAN",
+                  "WC",
+                  "GENDER_CABIN",
+                  "EAT"
+                ]
+              },
+              "suite": {
+                "type": "suite",
+                "price": { "value": 16565.14, "currency": "RUB" },
+                "seats": 25,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 25 },
+                  "upper": { "quantity": 0 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "EAT",
+                  "GENDER_CABIN",
+                  "PAP",
+                  "REST",
+                  "SAN",
+                  "WC"
+                ]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["EAT", "REST", "BED"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "2006004_9602494_1765974600",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765974600",
+          "departure": "2025-12-17T12:30:00Z",
+          "arrival": "2025-12-17T16:26:00Z",
+          "duration": 14160,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ДОСС" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "772А",
+            "displayNumber": "772А"
+          },
+          "features": {
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 258,
+              "title": "«Сапсан»",
+              "isDeluxe": false,
+              "isHighSpeed": true,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": { "classes": {}, "brokenClassesCode": "OTHER" },
+          "provider": "P1",
+          "facilities": ["EAT"]
+        }
+      ],
+      "backward": []
+    },
+    {
+      "id": "2006004_9602494_1765975200",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765975200",
+          "departure": "2025-12-17T12:40:00Z",
+          "arrival": "2025-12-17T16:35:00Z",
+          "duration": 14100,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ДОСС" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "774А",
+            "displayNumber": "774А"
+          },
+          "features": {
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 258,
+              "title": "«Сапсан»",
+              "isDeluxe": false,
+              "isHighSpeed": true,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": { "classes": {}, "brokenClassesCode": "SOLD_OUT" },
+          "facilities": []
+        }
+      ],
+      "backward": []
+    },
+    {
+      "id": "2006004_9602494_1765975500",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765975500",
+          "departure": "2025-12-17T12:45:00Z",
+          "arrival": "2025-12-17T18:05:00Z",
+          "duration": 19200,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ДОСС" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "724В",
+            "displayNumber": "724В"
+          },
+          "features": {
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 252,
+              "title": "«Ласточка»",
+              "isDeluxe": false,
+              "isHighSpeed": true,
+              "shortTitle": ""
+            },
+            "subtype": { "type": "subtype", "id": 43, "title": "«Ласточка»" }
+          },
+          "tariffs": { "classes": {}, "brokenClassesCode": "SOLD_OUT" },
+          "facilities": []
+        }
+      ],
+      "backward": []
+    },
+    {
+      "id": "2006004_9602494_1765981800",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765981800",
+          "departure": "2025-12-17T14:30:00Z",
+          "arrival": "2025-12-17T18:20:00Z",
+          "duration": 13800,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ДОСС" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "776А",
+            "displayNumber": "776А"
+          },
+          "features": {
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 258,
+              "title": "«Сапсан»",
+              "isDeluxe": false,
+              "isHighSpeed": true,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": { "classes": {}, "brokenClassesCode": "SOLD_OUT" },
+          "facilities": []
+        }
+      ],
+      "backward": []
+    },
+    {
+      "id": "2006004_9602494_1765982400",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765982400",
+          "departure": "2025-12-17T14:40:00Z",
+          "arrival": "2025-12-17T18:40:00Z",
+          "duration": 14400,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ДОСС" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "778А",
+            "displayNumber": "778А"
+          },
+          "features": {
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 258,
+              "title": "«Сапсан»",
+              "isDeluxe": false,
+              "isHighSpeed": true,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": { "classes": {}, "brokenClassesCode": "SOLD_OUT" },
+          "facilities": []
+        }
+      ],
+      "backward": []
+    },
+    {
+      "id": "2006004_9602494_1765982700",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765982700",
+          "departure": "2025-12-17T14:45:00Z",
+          "arrival": "2025-12-17T20:04:00Z",
+          "duration": 19140,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "746У",
+            "displayNumber": "746У"
+          },
+          "features": {
+            "eTicket": { "type": "eTicket" },
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 360,
+              "title": "«Аврора/двухэтажный состав»",
+              "isDeluxe": false,
+              "isHighSpeed": false,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": {
+            "classes": {
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 7419.35, "currency": "RUB" },
+                "seats": 4,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 0 },
+                  "upper": { "quantity": 4 }
+                },
+                "facilities": ["BED", "COND", "EAT", "PAP", "REST", "SAN", "WC"]
+              },
+              "sitting": {
+                "type": "sitting",
+                "price": { "value": 3921.12, "currency": "RUB" },
+                "seats": 196,
+                "hasNonRefundableTariff": false,
+                "facilities": ["COND", "PAP", "REST", "WC", "PETS"]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["EAT", "REST"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "2006004_9602499_1765986300",
+      "forward": [
+        {
+          "id": "2006004_9602499_1765986300",
+          "departure": "2025-12-17T15:45:00Z",
+          "arrival": "2025-12-17T23:03:00Z",
+          "duration": 26280,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602499",
+            "title": "Ладожский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Москва — Петрозаводск",
+            "number": "160В",
+            "displayNumber": "160В"
+          },
+          "features": {
+            "eTicket": { "type": "eTicket" },
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 264,
+              "title": "«Двухэтажный состав»",
+              "isDeluxe": false,
+              "isHighSpeed": false,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": {
+            "classes": {
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 3350.85, "currency": "RUB" },
+                "seats": 83,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 31 },
+                  "upper": { "quantity": 52 }
+                },
+                "facilities": ["BED", "COND", "PAP", "WC", "REST", "S220"]
+              },
+              "suite": {
+                "type": "suite",
+                "price": { "value": 12448.24, "currency": "RUB" },
+                "seats": 1,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 1 },
+                  "upper": { "quantity": 0 }
+                },
+                "facilities": ["BED", "COND", "REST", "S220", "SAN", "WC"]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["BED", "REST"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "2006004_9602494_1765989000",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765989000",
+          "departure": "2025-12-17T16:30:00Z",
+          "arrival": "2025-12-17T20:40:00Z",
+          "duration": 15000,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ДОСС" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "780А",
+            "displayNumber": "780А"
+          },
+          "features": {
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 258,
+              "title": "«Сапсан»",
+              "isDeluxe": false,
+              "isHighSpeed": true,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": { "classes": {}, "brokenClassesCode": "SOLD_OUT" },
+          "facilities": []
+        }
+      ],
+      "backward": []
+    },
+    {
+      "id": "2006004_9602494_1765989600",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765989600",
+          "departure": "2025-12-17T16:40:00Z",
+          "arrival": "2025-12-17T20:50:00Z",
+          "duration": 15000,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ДОСС" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "782А",
+            "displayNumber": "782А"
+          },
+          "features": {
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 258,
+              "title": "«Сапсан»",
+              "isDeluxe": false,
+              "isHighSpeed": true,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": { "classes": {}, "brokenClassesCode": "SOLD_OUT" },
+          "facilities": []
+        }
+      ],
+      "backward": []
+    },
+    {
+      "id": "2006004_9602494_1765991400",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765991400",
+          "departure": "2025-12-17T17:10:00Z",
+          "arrival": "2025-12-18T01:36:00Z",
+          "duration": 30360,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "006А",
+            "displayNumber": "006А"
+          },
+          "features": {
+            "eTicket": { "type": "eTicket" },
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 264,
+              "title": "«Двухэтажный состав»",
+              "isDeluxe": false,
+              "isHighSpeed": false,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": {
+            "classes": {
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 3556.91, "currency": "RUB" },
+                "seats": 594,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 283 },
+                  "upper": { "quantity": 311 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "PAP",
+                  "SAN",
+                  "WC",
+                  "GENDER_CABIN"
+                ]
+              },
+              "suite": {
+                "type": "suite",
+                "price": { "value": 8503.4, "currency": "RUB" },
+                "seats": 8,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 8 },
+                  "upper": { "quantity": 0 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "GENDER_CABIN",
+                  "PAP",
+                  "SAN",
+                  "WC"
+                ]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["BED"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "2006004_9602494_1765993800",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765993800",
+          "departure": "2025-12-17T17:50:00Z",
+          "arrival": "2025-12-17T21:41:00Z",
+          "duration": 13860,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ДОСС" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "784А",
+            "displayNumber": "784А"
+          },
+          "features": {
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 258,
+              "title": "«Сапсан»",
+              "isDeluxe": false,
+              "isHighSpeed": true,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": { "classes": {}, "brokenClassesCode": "SOLD_OUT" },
+          "facilities": []
+        }
+      ],
+      "backward": []
+    },
+    {
+      "id": "9879173_9602494_1765994640",
+      "forward": [
+        {
+          "id": "9879173_9602494_1765994640",
+          "departure": "2025-12-17T18:04:00Z",
+          "arrival": "2025-12-18T03:31:00Z",
+          "duration": 34020,
+          "stationFrom": {
+            "id": "9879173",
+            "title": "Восточный вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Челябинск — Санкт-Петербург",
+            "number": "146У",
+            "displayNumber": "146У"
+          },
+          "features": { "eTicket": { "type": "eTicket" } },
+          "tariffs": {
+            "classes": {
+              "platzkarte": {
+                "type": "platzkarte",
+                "price": { "value": 2444, "currency": "RUB" },
+                "seats": 82,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 0 },
+                  "upper": { "quantity": 51 },
+                  "lowerSide": { "quantity": 1 },
+                  "upperSide": { "quantity": 30 }
+                },
+                "facilities": ["COND", "PETS", "REST", "WC"]
+              },
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 4659.83, "currency": "RUB" },
+                "seats": 47,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 8 },
+                  "upper": { "quantity": 39 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "PAP",
+                  "REST",
+                  "WC",
+                  "GENDER_CABIN",
+                  "SAN"
+                ]
+              },
+              "suite": {
+                "type": "suite",
+                "price": { "value": 15434.75, "currency": "RUB" },
+                "seats": 4,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 4 },
+                  "upper": { "quantity": 0 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "EAT",
+                  "GENDER_CABIN",
+                  "PAP",
+                  "REST",
+                  "SAN",
+                  "WC"
+                ]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["EAT", "REST", "BED"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "9879173_9602499_1765996080",
+      "forward": [
+        {
+          "id": "9879173_9602499_1765996080",
+          "departure": "2025-12-17T18:28:00Z",
+          "arrival": "2025-12-18T04:45:00Z",
+          "duration": 37020,
+          "stationFrom": {
+            "id": "9879173",
+            "title": "Восточный вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602499",
+            "title": "Ладожский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Белгород — Санкт-Петербург",
+            "number": "120В",
+            "displayNumber": "120В"
+          },
+          "features": { "eTicket": { "type": "eTicket" } },
+          "tariffs": {
+            "classes": {
+              "platzkarte": {
+                "type": "platzkarte",
+                "price": { "value": 2321.79, "currency": "RUB" },
+                "seats": 50,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 7 },
+                  "upper": { "quantity": 13 },
+                  "lowerSide": { "quantity": 2 },
+                  "upperSide": { "quantity": 28 }
+                },
+                "facilities": ["COND", "WC", "PETS"]
+              },
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 3618.87, "currency": "RUB" },
+                "seats": 15,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 3 },
+                  "upper": { "quantity": 12 }
+                },
+                "facilities": ["BED", "COND", "WC", "PETS"]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": []
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "2006004_9602494_1765998000",
+      "forward": [
+        {
+          "id": "2006004_9602494_1765998000",
+          "departure": "2025-12-17T19:00:00Z",
+          "arrival": "2025-12-18T02:20:00Z",
+          "duration": 26400,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "026А",
+            "displayNumber": "026А"
+          },
+          "features": {
+            "eTicket": { "type": "eTicket" },
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 117,
+              "title": "фирменный «Смена/А.Бетанкур - двухэтажный состав»",
+              "isDeluxe": true,
+              "isHighSpeed": false,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": {
+            "classes": {
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 4163.12, "currency": "RUB" },
+                "seats": 318,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 135 },
+                  "upper": { "quantity": 183 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "EAT",
+                  "PAP",
+                  "REST",
+                  "SAN",
+                  "WC",
+                  "GENDER_CABIN"
+                ]
+              },
+              "suite": {
+                "type": "suite",
+                "price": { "value": 12061.16, "currency": "RUB" },
+                "seats": 23,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 23 },
+                  "upper": { "quantity": 0 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "EAT",
+                  "GENDER_CABIN",
+                  "PAP",
+                  "REST",
+                  "SAN",
+                  "WC"
+                ]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["EAT", "REST", "BED"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "2006004_9602494_1766001000",
+      "forward": [
+        {
+          "id": "2006004_9602494_1766001000",
+          "departure": "2025-12-17T19:50:00Z",
+          "arrival": "2025-12-18T04:10:00Z",
+          "duration": 30000,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "Тверской Экспресс" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "020У",
+            "displayNumber": "020У"
+          },
+          "features": {
+            "eTicket": { "type": "eTicket" },
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 106,
+              "title": "«Мегаполис»",
+              "isDeluxe": false,
+              "isHighSpeed": false,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": {
+            "classes": {
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 5091.2, "currency": "RUB" },
+                "seats": 49,
+                "hasNonRefundableTariff": true,
+                "placesDetails": {
+                  "lower": { "quantity": 1 },
+                  "upper": { "quantity": 48 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "EAT",
+                  "GENDER_CABIN",
+                  "PETS",
+                  "REST",
+                  "S220",
+                  "SAN",
+                  "SLPR",
+                  "WC",
+                  "WIFI"
+                ]
+              },
+              "suite": {
+                "type": "suite",
+                "price": { "value": 13311.82, "currency": "RUB" },
+                "seats": 11,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 11 },
+                  "upper": { "quantity": 0 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "PETS",
+                  "REST",
+                  "S220",
+                  "SAN",
+                  "SLPR",
+                  "WC",
+                  "WIFI",
+                  "EAT",
+                  "GENDER_CABIN"
+                ]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["REST", "EAT"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "2006004_9602494_1766003400",
+      "forward": [
+        {
+          "id": "2006004_9602494_1766003400",
+          "departure": "2025-12-17T20:30:00Z",
+          "arrival": "2025-12-18T05:30:00Z",
+          "duration": 32400,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "004А",
+            "displayNumber": "004А"
+          },
+          "features": {
+            "eTicket": { "type": "eTicket" },
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 90,
+              "title": "фирменный «Экспресс»",
+              "isDeluxe": true,
+              "isHighSpeed": false,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": {
+            "classes": {
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 7165.62, "currency": "RUB" },
+                "seats": 4,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 0 },
+                  "upper": { "quantity": 4 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "EAT",
+                  "GENDER_CABIN",
+                  "PAP",
+                  "REST",
+                  "SAN",
+                  "WC"
+                ]
+              },
+              "suite": {
+                "type": "suite",
+                "price": { "value": 13060, "currency": "RUB" },
+                "seats": 9,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 0 },
+                  "upper": { "quantity": 9 }
+                },
+                "facilities": ["BED", "COND", "EAT", "PAP", "REST", "SAN", "WC"]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["EAT", "REST"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "2006004_9602494_1766004360",
+      "forward": [
+        {
+          "id": "2006004_9602494_1766004360",
+          "departure": "2025-12-17T20:46:00Z",
+          "arrival": "2025-12-18T05:36:00Z",
+          "duration": 31800,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "Гранд" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "054А",
+            "displayNumber": "054А"
+          },
+          "features": {
+            "eTicket": { "type": "eTicket" },
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 140,
+              "title": "«Гранд-Экспресс»",
+              "isDeluxe": false,
+              "isHighSpeed": false,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": {
+            "classes": {
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 7199.74, "currency": "RUB" },
+                "seats": 26,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 1 },
+                  "upper": { "quantity": 25 }
+                },
+                "facilities": ["BED", "EAT", "REST"]
+              },
+              "suite": {
+                "type": "suite",
+                "price": { "value": 13404.37, "currency": "RUB" },
+                "seats": 38,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 28 },
+                  "upper": { "quantity": 10 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "EAT",
+                  "PETS",
+                  "REST",
+                  "WC",
+                  "GENDER_CABIN"
+                ]
+              },
+              "soft": {
+                "type": "soft",
+                "price": { "value": 76334.78, "currency": "RUB" },
+                "seats": 8,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 4 },
+                  "upper": { "quantity": 4 }
+                },
+                "facilities": ["BED", "COND", "EAT", "PETS", "REST", "WC"]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["EAT", "REST", "BED"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "2006004_9602494_1766004900",
+      "forward": [
+        {
+          "id": "2006004_9602494_1766004900",
+          "departure": "2025-12-17T20:55:00Z",
+          "arrival": "2025-12-18T04:55:00Z",
+          "duration": 28800,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "002А",
+            "displayNumber": "002А"
+          },
+          "features": {
+            "eTicket": { "type": "eTicket" },
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 85,
+              "title": "фирменный «Красная стрела»",
+              "isDeluxe": true,
+              "isHighSpeed": false,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": {
+            "classes": {
+              "suite": {
+                "type": "suite",
+                "price": { "value": 14497.25, "currency": "RUB" },
+                "seats": 1,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 1 },
+                  "upper": { "quantity": 0 }
+                },
+                "facilities": ["BED", "COND", "EAT", "PAP", "REST", "SAN", "WC"]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["EAT", "REST"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "9879173_9602494_1766005140",
+      "forward": [
+        {
+          "id": "9879173_9602494_1766005140",
+          "departure": "2025-12-17T20:59:00Z",
+          "arrival": "2025-12-18T07:15:00Z",
+          "duration": 36960,
+          "stationFrom": {
+            "id": "9879173",
+            "title": "Восточный вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Белгород — Санкт-Петербург",
+            "number": "030У",
+            "displayNumber": "030У"
+          },
+          "features": {
+            "eTicket": { "type": "eTicket" },
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 264,
+              "title": "«Двухэтажный состав»",
+              "isDeluxe": false,
+              "isHighSpeed": false,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": {
+            "classes": {
+              "sitting": {
+                "type": "sitting",
+                "price": { "value": 2439.12, "currency": "RUB" },
+                "seats": 54,
+                "hasNonRefundableTariff": false,
+                "facilities": ["COND", "REST", "WC"]
+              }
+            },
+            "brokenClassesCode": "OTHER"
+          },
+          "provider": "P1",
+          "facilities": ["BED", "REST"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "2006004_9602494_1766006700",
+      "forward": [
+        {
+          "id": "2006004_9602494_1766006700",
+          "departure": "2025-12-17T21:25:00Z",
+          "arrival": "2025-12-18T06:18:00Z",
+          "duration": 31980,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "Тверской Экспресс" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "022А",
+            "displayNumber": "022А"
+          },
+          "features": {
+            "eTicket": { "type": "eTicket" },
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 328,
+              "title": "«Ночной экспресс»",
+              "isDeluxe": false,
+              "isHighSpeed": false,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": {
+            "classes": {
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 6304.58, "currency": "RUB" },
+                "seats": 49,
+                "hasNonRefundableTariff": true,
+                "placesDetails": {
+                  "lower": { "quantity": 5 },
+                  "upper": { "quantity": 44 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "EAT",
+                  "GENDER_CABIN",
+                  "PETS",
+                  "REST",
+                  "S220",
+                  "SAN",
+                  "SLPR",
+                  "WC",
+                  "WIFI"
+                ]
+              },
+              "suite": {
+                "type": "suite",
+                "price": { "value": 14866.41, "currency": "RUB" },
+                "seats": 12,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 12 },
+                  "upper": { "quantity": 0 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "EAT",
+                  "PAP",
+                  "REST",
+                  "S220",
+                  "SAN",
+                  "SLPR",
+                  "WC",
+                  "WIFI"
+                ]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["EAT", "REST"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "2006004_9602499_1766007960",
+      "forward": [
+        {
+          "id": "2006004_9602499_1766007960",
+          "departure": "2025-12-17T21:46:00Z",
+          "arrival": "2025-12-18T06:35:00Z",
+          "duration": 31740,
+          "stationFrom": {
+            "id": "2006004",
+            "title": "Ленинградский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602499",
+            "title": "Ладожский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Москва — Мурманск",
+            "number": "016А",
+            "displayNumber": "016А"
+          },
+          "features": {
+            "eTicket": { "type": "eTicket" },
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 193,
+              "title": "фирменный «Арктика»",
+              "isDeluxe": true,
+              "isHighSpeed": false,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": {
+            "classes": {
+              "platzkarte": {
+                "type": "platzkarte",
+                "price": { "value": 3666, "currency": "RUB" },
+                "seats": 107,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 0 },
+                  "upper": { "quantity": 59 },
+                  "lowerSide": { "quantity": 12 },
+                  "upperSide": { "quantity": 36 }
+                },
+                "facilities": ["COND", "PETS", "REST", "WC"]
+              },
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 6863.47, "currency": "RUB" },
+                "seats": 29,
+                "hasNonRefundableTariff": true,
+                "placesDetails": {
+                  "lower": { "quantity": 14 },
+                  "upper": { "quantity": 15 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "EAT",
+                  "PAP",
+                  "REST",
+                  "SAN",
+                  "WC",
+                  "GENDER_CABIN"
+                ]
+              },
+              "suite": {
+                "type": "suite",
+                "price": { "value": 19218.07, "currency": "RUB" },
+                "seats": 5,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 3 },
+                  "upper": { "quantity": 2 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "EAT",
+                  "GENDER_CABIN",
+                  "PAP",
+                  "REST",
+                  "SAN",
+                  "WC"
+                ]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["EAT", "REST"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "9879173_9602494_1766008080",
+      "forward": [
+        {
+          "id": "9879173_9602494_1766008080",
+          "departure": "2025-12-17T21:48:00Z",
+          "arrival": "2025-12-18T07:01:00Z",
+          "duration": 33180,
+          "stationFrom": {
+            "id": "9879173",
+            "title": "Восточный вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Нижний Новгород — Санкт-Петербург",
+            "number": "059Г",
+            "displayNumber": "060Г"
+          },
+          "features": {
+            "eTicket": { "type": "eTicket" },
+            "namedTrain": {
+              "type": "namedTrain",
+              "id": 146,
+              "title": "фирменный «Волга»",
+              "isDeluxe": true,
+              "isHighSpeed": false,
+              "shortTitle": ""
+            }
+          },
+          "tariffs": {
+            "classes": {
+              "platzkarte": {
+                "type": "platzkarte",
+                "price": { "value": 3666, "currency": "RUB" },
+                "seats": 151,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 1 },
+                  "upper": { "quantity": 68 },
+                  "lowerSide": { "quantity": 36 },
+                  "upperSide": { "quantity": 46 }
+                },
+                "facilities": ["COND", "REST", "WC", "PETS"]
+              },
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 5766.12, "currency": "RUB" },
+                "seats": 28,
+                "hasNonRefundableTariff": true,
+                "placesDetails": {
+                  "lower": { "quantity": 3 },
+                  "upper": { "quantity": 25 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "EAT",
+                  "PAP",
+                  "REST",
+                  "SAN",
+                  "WC",
+                  "GENDER_CABIN"
+                ]
+              },
+              "suite": {
+                "type": "suite",
+                "price": { "value": 20821.67, "currency": "RUB" },
+                "seats": 9,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 9 },
+                  "upper": { "quantity": 0 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "EAT",
+                  "GENDER_CABIN",
+                  "PAP",
+                  "REST",
+                  "SAN",
+                  "WC"
+                ]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["EAT", "REST"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "2000007_9602494_1766008800",
+      "forward": [
+        {
+          "id": "2000007_9602494_1766008800",
+          "departure": "2025-12-17T22:00:00Z",
+          "arrival": "2025-12-18T07:51:00Z",
+          "duration": 35460,
+          "stationFrom": {
+            "id": "2000007",
+            "title": "Киевский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Москва — Санкт-Петербург",
+            "number": "057М",
+            "displayNumber": "057М"
+          },
+          "features": { "eTicket": { "type": "eTicket" } },
+          "tariffs": {
+            "classes": {
+              "platzkarte": {
+                "type": "platzkarte",
+                "price": { "value": 2444, "currency": "RUB" },
+                "seats": 228,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 19 },
+                  "upper": { "quantity": 105 },
+                  "lowerSide": { "quantity": 49 },
+                  "upperSide": { "quantity": 55 }
+                },
+                "facilities": ["COND", "WC", "PETS"]
+              },
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 4973.83, "currency": "RUB" },
+                "seats": 15,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 2 },
+                  "upper": { "quantity": 13 }
+                },
+                "facilities": ["BED", "COND", "WC", "GENDER_CABIN"]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": []
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "9879173_9602494_1766012700",
+      "forward": [
+        {
+          "id": "9879173_9602494_1766012700",
+          "departure": "2025-12-17T23:05:00Z",
+          "arrival": "2025-12-18T08:00:00Z",
+          "duration": 32100,
+          "stationFrom": {
+            "id": "9879173",
+            "title": "Восточный вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Кисловодск — Санкт-Петербург",
+            "number": "049С",
+            "displayNumber": "050С"
+          },
+          "features": { "eTicket": { "type": "eTicket" } },
+          "tariffs": {
+            "classes": {
+              "platzkarte": {
+                "type": "platzkarte",
+                "price": { "value": 2444, "currency": "RUB" },
+                "seats": 73,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 1 },
+                  "upper": { "quantity": 30 },
+                  "lowerSide": { "quantity": 8 },
+                  "upperSide": { "quantity": 34 }
+                },
+                "facilities": ["COND", "WC", "PETS"]
+              },
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 3593.45, "currency": "RUB" },
+                "seats": 18,
+                "hasNonRefundableTariff": true,
+                "placesDetails": {
+                  "lower": { "quantity": 1 },
+                  "upper": { "quantity": 17 }
+                },
+                "facilities": ["BED", "COND", "GENDER_CABIN", "WC"]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": []
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "9879173_9602494_1766016780",
+      "forward": [
+        {
+          "id": "9879173_9602494_1766016780",
+          "departure": "2025-12-18T00:13:00Z",
+          "arrival": "2025-12-18T08:25:00Z",
+          "duration": 29520,
+          "stationFrom": {
+            "id": "9879173",
+            "title": "Восточный вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Белгород — Санкт-Петербург",
+            "number": "082В",
+            "displayNumber": "082В"
+          },
+          "features": { "eTicket": { "type": "eTicket" } },
+          "tariffs": {
+            "classes": {
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 2992.92, "currency": "RUB" },
+                "seats": 100,
+                "hasNonRefundableTariff": true,
+                "placesDetails": {
+                  "lower": { "quantity": 15 },
+                  "upper": { "quantity": 85 }
+                },
+                "facilities": [
+                  "BED",
+                  "COND",
+                  "REST",
+                  "WC",
+                  "EAT",
+                  "GENDER_CABIN",
+                  "PAP",
+                  "SAN"
+                ]
+              },
+              "suite": {
+                "type": "suite",
+                "price": { "value": 13587.08, "currency": "RUB" },
+                "seats": 17,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 17 },
+                  "upper": { "quantity": 0 }
+                },
+                "facilities": ["BED", "COND", "EAT", "PAP", "REST", "SAN", "WC"]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": ["EAT", "REST", "BED"]
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    },
+    {
+      "id": "9879173_9602494_1766019300",
+      "forward": [
+        {
+          "id": "9879173_9602494_1766019300",
+          "departure": "2025-12-18T00:55:00Z",
+          "arrival": "2025-12-18T10:52:00Z",
+          "duration": 35820,
+          "stationFrom": {
+            "id": "9879173",
+            "title": "Восточный вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 213,
+              "preposition": "",
+              "title": "Москва",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "stationTo": {
+            "id": "9602494",
+            "title": "Московский вокзал",
+            "country": { "id": 225, "code": "RU" },
+            "settlement": {
+              "id": 2,
+              "preposition": "",
+              "title": "Санкт-Петербург",
+              "titleAccusative": "",
+              "titleGenitive": "",
+              "titleLocative": "",
+              "titlePrepositional": "",
+              "slug": ""
+            },
+            "timezone": "Europe/Moscow",
+            "railwayTimezone": "Europe/Moscow",
+            "slug": ""
+          },
+          "company": { "id": 0, "title": "РЖД/ФПК" },
+          "train": {
+            "title": "Адлер — Санкт-Петербург",
+            "number": "100С",
+            "displayNumber": "100С"
+          },
+          "features": { "eTicket": { "type": "eTicket" } },
+          "tariffs": {
+            "classes": {
+              "platzkarte": {
+                "type": "platzkarte",
+                "price": { "value": 2444, "currency": "RUB" },
+                "seats": 104,
+                "hasNonRefundableTariff": false,
+                "placesDetails": {
+                  "lower": { "quantity": 6 },
+                  "upper": { "quantity": 51 },
+                  "lowerSide": { "quantity": 18 },
+                  "upperSide": { "quantity": 29 }
+                },
+                "facilities": ["COND", "PETS", "WC"]
+              },
+              "compartment": {
+                "type": "compartment",
+                "price": { "value": 3194.28, "currency": "RUB" },
+                "seats": 42,
+                "hasNonRefundableTariff": true,
+                "placesDetails": {
+                  "lower": { "quantity": 8 },
+                  "upper": { "quantity": 34 }
+                },
+                "facilities": ["BED", "COND", "WC", "GENDER_CABIN"]
+              }
+            }
+          },
+          "provider": "P1",
+          "facilities": []
+        }
+      ],
+      "backward": [],
+      "orderUrl": { "owner": "TRAINS" }
+    }
+  ],
+  "context": {
+    "isChanged": false,
+    "original": {
+      "nearest": false,
+      "pointFrom": {
+        "key": "c213",
+        "title": "Москва",
+        "titleWithType": "г. Москва",
+        "titleGenitive": "Москвы",
+        "titleAccusative": "Москву",
+        "titleLocative": "Москве",
+        "preposition": "в",
+        "popularTitle": "Москва",
+        "shortTitle": "Москва",
+        "slug": "moscow"
+      },
+      "pointTo": {
+        "key": "c2",
+        "title": "Санкт-Петербург",
+        "titleWithType": "г. Санкт-Петербург",
+        "titleGenitive": "Санкт-Петербурга",
+        "titleAccusative": "Санкт-Петербург",
+        "titleLocative": "Санкт-Петербурге",
+        "preposition": "в",
+        "popularTitle": "Санкт-Петербург",
+        "shortTitle": "Санкт-Петербург",
+        "slug": "saint-petersburg"
+      }
+    },
+    "search": {
+      "nearest": false,
+      "pointFrom": {
+        "key": "c213",
+        "title": "Москва",
+        "titleWithType": "г. Москва",
+        "titleGenitive": "Москвы",
+        "titleAccusative": "Москву",
+        "titleLocative": "Москве",
+        "preposition": "в",
+        "popularTitle": "Москва",
+        "shortTitle": "Москва",
+        "slug": "moscow"
+      },
+      "pointTo": {
+        "key": "c2",
+        "title": "Санкт-Петербург",
+        "titleWithType": "г. Санкт-Петербург",
+        "titleGenitive": "Санкт-Петербурга",
+        "titleAccusative": "Санкт-Петербург",
+        "titleLocative": "Санкт-Петербурге",
+        "preposition": "в",
+        "popularTitle": "Санкт-Петербург",
+        "shortTitle": "Санкт-Петербург",
+        "slug": "saint-petersburg"
+      }
+    },
+    "transportTypes": ["train"],
+    "latestDatetime": "2025-12-18T01:00:00Z"
+  },
+  "activePartners": ["im"],
+  "minPrice": {
+    "forward": { "Currency": "C_RUB", "Amount": "162611", "Precision": 2 }
+  }
+}

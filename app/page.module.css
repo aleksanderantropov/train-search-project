@@ -1,0 +1,27 @@
+.error {
+  color: red;
+}
+
+.variantsContainer {
+  margin-top: 2rem;
+}
+
+.variantsTitle {
+  margin-bottom: 1rem;
+}
+
+.variantContainer {
+  margin-bottom: 2rem;
+}
+
+.variantTitle {
+  margin-bottom: 1rem;
+}
+
+.segmentContainer {
+  margin-bottom: 1rem;
+}
+
+.segmentTitle {
+  margin-bottom: 0.5rem;
+}
