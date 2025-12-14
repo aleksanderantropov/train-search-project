@@ -140,12 +140,14 @@ interface SearchState {
   data: SearchResponse | null;
   loading: boolean;
   error: string | null;
+  minDuration: number | null;
 }
 
 const initialState: SearchState = {
   data: null,
   loading: false,
   error: null,
+  minDuration: null,
 };
 
 const searchSlice = createSlice({
@@ -156,6 +158,25 @@ const searchSlice = createSlice({
       state.data = action.payload;
       state.loading = false;
       state.error = null;
+
+      // Calculate minimum duration across all segments
+      let minDuration = Infinity;
+      action.payload.variants.forEach((variant) => {
+        variant.forward.forEach((segment) => {
+          if (segment.duration < minDuration) {
+            minDuration = segment.duration;
+          }
+        });
+        if (variant.backward) {
+          variant.backward.forEach((segment) => {
+            if (segment.duration < minDuration) {
+              minDuration = segment.duration;
+            }
+          });
+        }
+      });
+
+      state.minDuration = minDuration !== Infinity ? minDuration : null;
     },
     setLoading: (state, action: PayloadAction<boolean>) => {
       state.loading = action.payload;
@@ -168,6 +189,7 @@ const searchSlice = createSlice({
       state.data = null;
       state.error = null;
       state.loading = false;
+      state.minDuration = null;
     },
   },
 });

@@ -52,17 +52,13 @@ export default function Home() {
                 </h2>
                 {data.variants.map((variant, variantIndex) => (
                   <div key={variant.id} className={styles.variantContainer}>
-                    <h3 className={styles.variantTitle}>
-                      Variant {variantIndex + 1}
-                    </h3>
-
                     {/* Forward segments */}
                     {variant.forward.map((segment, segmentIndex) => (
                       <div key={segment.id} className={styles.segmentContainer}>
                         {variant.forward.length > 1 && (
-                          <h4 className={styles.segmentTitle}>
+                          <h3 className={styles.segmentTitle}>
                             Forward Segment {segmentIndex + 1}
-                          </h4>
+                          </h3>
                         )}
                         <Segment segment={segment} />
                       </div>
@@ -75,9 +71,9 @@ export default function Home() {
                           key={segment.id}
                           className={styles.segmentContainer}
                         >
-                          <h4 className={styles.segmentTitle}>
+                          <h3 className={styles.segmentTitle}>
                             Backward Segment {segmentIndex + 1}
-                          </h4>
+                          </h3>
                           <Segment segment={segment} />
                         </div>
                       ))}

@@ -1,13 +1,13 @@
 'use client';
 
+import { useAppSelector } from '@/lib/hooks';
 import styles from './Segment.module.css';
 
 // Helper function to format date and time
 const formatDateTime = (isoString: string) => {
   const date = new Date(isoString);
   const dateStr = date.toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
+    month: 'short',
     day: 'numeric',
   });
   const timeStr = date.toLocaleTimeString('en-US', {
@@ -23,11 +23,11 @@ const formatDuration = (seconds: number) => {
   const hours = Math.floor(seconds / 3600);
   const minutes = Math.floor((seconds % 3600) / 60);
   if (hours > 0 && minutes > 0) {
-    return `${hours}h ${minutes}m`;
+    return `${hours} ч ${minutes} м`;
   } else if (hours > 0) {
-    return `${hours}h`;
+    return `${hours} ч`;
   } else {
-    return `${minutes}m`;
+    return `${minutes} м`;
   }
 };
 
@@ -153,148 +153,156 @@ interface SegmentProps {
 }
 
 export default function Segment({ segment }: SegmentProps) {
+  const { data, minDuration } = useAppSelector((state) => state.search);
   const segmentFacilities = getSegmentFacilities(segment.tariffs);
+  const segmentMinPrice = findMinPrice(segment.tariffs);
+  const departure = formatDateTime(segment.departure);
+  const arrival = formatDateTime(segment.arrival);
+
+  // Check if any tariff has non-refundable tariff
+  const hasNonRefundableTariff = Object.values(segment.tariffs.classes).some(
+    (tariff) => tariff.hasNonRefundableTariff
+  );
+
+  // Check if this segment has the cheapest price (matches route min price)
+  const globalMinPrice = data?.minPrice?.forward;
+  const isCheapestSegment =
+    segmentMinPrice &&
+    globalMinPrice &&
+    segmentMinPrice.value === globalMinPrice.value &&
+    segmentMinPrice.currency === globalMinPrice.currency;
+
+  // Check if this segment is the fastest (matches global min duration)
+  const isFastestSegment =
+    minDuration !== null && segment.duration === minDuration;
+
+  // Map tariff type names
+  const getTariffName = (type: string): string => {
+    const nameMap: { [key: string]: string } = {
+      compartment: 'Купе',
+      suite: 'СВ',
+      sitting: 'Сидячий',
+      platzkarte: 'Плац',
+    };
+    return nameMap[type.toLowerCase()] || type;
+  };
 
   return (
     <div className={styles.container}>
-      <h3 className={styles.title}>Segment Details</h3>
-
-      {/* Date and Time */}
-      <div className={styles.section}>
-        <h4>Schedule</h4>
-        <div className={styles.grid}>
-          <div>
-            <strong>Departure:</strong>
-            <div>{formatDateTime(segment.departure).date}</div>
-            <div>{formatDateTime(segment.departure).time}</div>
+      <div className={styles.badgesContainer}>
+        {hasNonRefundableTariff && (
+          <div className={styles.nonRefundableBadge}>
+            есть скидка на невозвратный тариф
           </div>
-          <div>
-            <strong>Arrival:</strong>
-            <div>{formatDateTime(segment.arrival).date}</div>
-            <div>{formatDateTime(segment.arrival).time}</div>
-          </div>
-        </div>
+        )}
+        {isCheapestSegment && (
+          <div className={styles.cheapestBadge}>самый дешевый</div>
+        )}
+        {isFastestSegment && (
+          <div className={styles.fastestBadge}>самый быстрый</div>
+        )}
       </div>
+      <div className={styles.mainContent}>
+        {/* Left: Departure */}
+        <div className={styles.departure}>
+          <div className={styles.time}>{departure.time}</div>
+          <div className={styles.date}>{departure.date}</div>
+          <div className={styles.station}>{segment.stationFrom.title}</div>
+        </div>
 
-      {/* Stations */}
-      <div className={styles.section}>
-        <h4>Stations</h4>
-        <div className={styles.grid}>
-          <div>
-            <strong>Departure Station:</strong>
-            <div>{segment.stationFrom.title}</div>
-            <div className={styles.settlement}>
-              {segment.stationFrom.settlement.title}
+        {/* Middle-Left: Arrival */}
+        <div className={styles.arrival}>
+          <div className={styles.time}>{arrival.time}</div>
+          <div className={styles.date}>{arrival.date}</div>
+          <div className={styles.station}>{segment.stationTo.title}</div>
+        </div>
+
+        {/* Middle: Duration and Train Info */}
+        <div className={styles.middle}>
+          <div className={styles.duration}>
+            {formatDuration(segment.duration)}
+          </div>
+          <div className={styles.trainInfo}>
+            <div className={styles.trainNumber}>
+              {segment.train.displayNumber}
             </div>
-          </div>
-          <div>
-            <strong>Arrival Station:</strong>
-            <div>{segment.stationTo.title}</div>
-            <div className={styles.settlement}>
-              {segment.stationTo.settlement.title}
+            <div className={styles.trainName}>
+              {segment.features.namedTrain?.title || segment.train.title}
             </div>
+            <div className={styles.company}>{segment.company.title}</div>
           </div>
         </div>
-      </div>
 
-      {/* Travel Time */}
-      <div className={styles.section}>
-        <strong>Travel Time:</strong> {formatDuration(segment.duration)}
-      </div>
+        {/* Right-Middle: Tariffs */}
+        <div className={styles.tariffs}>
+          <div className={styles.tariffList}>
+            {Object.entries(segment.tariffs.classes).map(
+              ([tariffType, tariff]) => {
+                const lowerPlaces = tariff.placesDetails?.lower?.quantity || 0;
+                const upperPlaces = tariff.placesDetails?.upper?.quantity || 0;
+                const totalSeats = tariff.seats || 0;
+                const isSitting = lowerPlaces === 0 && upperPlaces === 0;
 
-      {/* Train Information */}
-      <div className={styles.section}>
-        <h4>Train Information</h4>
-        <div>
-          <strong>Train Number:</strong> {segment.train.displayNumber}
-        </div>
-        <div>
-          <strong>Train Name:</strong>{' '}
-          {segment.features.namedTrain?.title || segment.train.title}
-        </div>
-        <div>
-          <strong>Provider Company:</strong> {segment.company.title}
-        </div>
-      </div>
-
-      {/* Facilities */}
-      {segmentFacilities.length > 0 && (
-        <div className={styles.section}>
-          <h4>Facilities</h4>
-          <div className={styles.facilities}>
-            {segmentFacilities
-              .map((facility) => {
-                const icon = getFacilityIcon(facility);
-                return icon ? (
-                  <span
-                    key={facility}
-                    className={styles.facilityIcon}
-                    title={facility}
-                  >
-                    {icon}
-                  </span>
-                ) : null;
-              })
-              .filter(Boolean)}
-          </div>
-        </div>
-      )}
-
-      {/* Tariff List */}
-      <div className={styles.tariffSection}>
-        <h4>Tariffs</h4>
-        <div className={styles.tariffList}>
-          {Object.entries(segment.tariffs.classes).map(
-            ([tariffType, tariff]) => {
-              const lowerPlaces = tariff.placesDetails?.lower?.quantity || 0;
-              const upperPlaces = tariff.placesDetails?.upper?.quantity || 0;
-              const totalSeats = tariff.seats || 0;
-              const isSitting = lowerPlaces === 0 && upperPlaces === 0;
-
-              return (
-                <div key={tariffType} className={styles.tariffItem}>
-                  <div className={styles.tariffContent}>
-                    <div>
-                      <strong className={styles.tariffType}>
-                        {tariffType}
-                      </strong>
-                      <div className={styles.tariffDetails}>
-                        <div>
-                          Price: {tariff.price.value.toLocaleString()}{' '}
-                          {tariff.price.currency}
-                        </div>
-                        {isSitting ? (
-                          <div>Seats: {totalSeats}</div>
-                        ) : (
-                          <div>
-                            Lower: {lowerPlaces} | Upper: {upperPlaces}
-                          </div>
-                        )}
-                      </div>
+                return (
+                  <div key={tariffType} className={styles.tariffItem}>
+                    <div className={styles.tariffName}>
+                      {getTariffName(tariffType)}
                     </div>
-                    {tariff.hasNonRefundableTariff && (
-                      <span className={styles.nonRefundableBadge}>
-                        Non-refundable
-                      </span>
+                    <div className={styles.tariffPrice}>
+                      от {tariff.price.value.toLocaleString()}{' '}
+                      {tariff.price.currency === 'RUB'
+                        ? '₽'
+                        : tariff.price.currency}
+                    </div>
+                    {isSitting ? (
+                      <div className={styles.seats}>{totalSeats} мест</div>
+                    ) : (
+                      <div className={styles.seats}>
+                        {lowerPlaces} ниж {upperPlaces} верх
+                      </div>
                     )}
                   </div>
-                </div>
-              );
-            }
+                );
+              }
+            )}
+          </div>
+        </div>
+
+        {/* Rightmost: Min Price and Button */}
+        <div className={styles.rightmost}>
+          {segmentMinPrice && (
+            <div className={styles.minPriceRight}>
+              от {segmentMinPrice.value.toLocaleString()}{' '}
+              {segmentMinPrice.currency === 'RUB'
+                ? '₽'
+                : segmentMinPrice.currency}
+            </div>
+          )}
+          {segmentMinPrice && (
+            <button className={styles.selectButton}>Выбрать место</button>
           )}
         </div>
-        <div className={styles.minPriceContainer}>
-          <strong>Minimum Price:</strong>{' '}
-          {(() => {
-            const segmentMinPrice = findMinPrice(segment.tariffs);
-            return segmentMinPrice
-              ? `${segmentMinPrice.value.toLocaleString()} ${
-                  segmentMinPrice.currency
-                }`
-              : 'N/A';
-          })()}
-        </div>
       </div>
+
+      {/* Bottom: Facilities */}
+      {segmentFacilities.length > 0 && (
+        <div className={styles.facilities}>
+          {segmentFacilities
+            .map((facility) => {
+              const icon = getFacilityIcon(facility);
+              return icon ? (
+                <span
+                  key={facility}
+                  className={styles.facilityIcon}
+                  title={facility}
+                >
+                  {icon}
+                </span>
+              ) : null;
+            })
+            .filter(Boolean)}
+        </div>
+      )}
     </div>
   );
 }
