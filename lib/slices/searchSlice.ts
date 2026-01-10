@@ -1,4 +1,4 @@
-import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { createSlice, createAsyncThunk, PayloadAction } from '@reduxjs/toolkit';
 
 // Types based on mock.json structure
 interface Country {
@@ -145,6 +145,19 @@ interface SearchState {
   minDuration: number | null;
 }
 
+// Async thunk for fetching search data
+export const fetchSearchData = createAsyncThunk(
+  'search/fetchSearchData',
+  async () => {
+    const response = await fetch('/api/search');
+    if (!response.ok) {
+      throw new Error('Failed to fetch search data');
+    }
+    const searchData: SearchResponse = await response.json();
+    return searchData;
+  }
+);
+
 const initialState: SearchState = {
   data: null,
   loading: false,
@@ -193,6 +206,41 @@ const searchSlice = createSlice({
       state.loading = false;
       state.minDuration = null;
     },
+  },
+  extraReducers: (builder) => {
+    builder
+      .addCase(fetchSearchData.pending, (state) => {
+        state.loading = true;
+        state.error = null;
+      })
+      .addCase(fetchSearchData.fulfilled, (state, action) => {
+        state.data = action.payload;
+        state.loading = false;
+        state.error = null;
+
+        // Calculate minimum duration across all segments
+        let minDuration = Infinity;
+        action.payload.variants.forEach((variant) => {
+          variant.forward.forEach((segment) => {
+            if (segment.duration < minDuration) {
+              minDuration = segment.duration;
+            }
+          });
+          if (variant.backward) {
+            variant.backward.forEach((segment) => {
+              if (segment.duration < minDuration) {
+                minDuration = segment.duration;
+              }
+            });
+          }
+        });
+
+        state.minDuration = minDuration !== Infinity ? minDuration : null;
+      })
+      .addCase(fetchSearchData.rejected, (state, action) => {
+        state.loading = false;
+        state.error = action.error.message || 'An error occurred';
+      });
   },
 });
 

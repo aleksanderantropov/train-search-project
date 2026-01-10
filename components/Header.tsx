@@ -16,17 +16,17 @@ export default function Header() {
 
   return (
     <div className={styles.header}>
-      <h2 className={styles.headerTitle}>Route Information</h2>
+      <h2 className={styles.headerTitle}>Информация о маршруте</h2>
       <div className={styles.headerContent}>
         <div>
-          <strong>From:</strong> {pointFrom}
+          <strong>Откуда:</strong> {pointFrom}
         </div>
         <div>
-          <strong>To:</strong> {pointTo}
+          <strong>Куда:</strong> {pointTo}
         </div>
         {minPrice && (
           <div>
-            <strong>Min Price:</strong> {minPrice.value.toLocaleString()}{' '}
+            <strong>Мин. цена:</strong> {minPrice.value.toLocaleString()}{' '}
             {minPrice.currency}
           </div>
         )}

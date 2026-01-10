@@ -1,0 +1,21 @@
+.dateHeader {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.dateHeader:first-child {
+  margin-top: 0;
+}
+
+.segmentContainer {
+  margin-bottom: 1rem;
+}
+
+.segmentTitle {
+  margin-bottom: 0.5rem;
+}

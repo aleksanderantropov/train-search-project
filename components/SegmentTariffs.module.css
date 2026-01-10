@@ -1,0 +1,34 @@
+.container {
+  flex: 1;
+}
+
+.tariffList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.tariffItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+
+.tariffName {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.tariffPrice {
+  font-weight: 600;
+  color: #27ae60;
+}
+
+.seats {
+  font-size: 0.85rem;
+  color: #7f8c8d;
+}
